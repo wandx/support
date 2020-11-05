@@ -1,0 +1,23 @@
+{
+    "name": "wandypurnomo/wandypurnomo-support",
+    "description": "Support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wandypurnomo",
+            "email": "wandypurnomo92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Wandx\\Support\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "laravel/lumen-framework": "^8.2",
+        "dingo/api": "^3.0"
+    }
+}
