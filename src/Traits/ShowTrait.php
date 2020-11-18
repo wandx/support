@@ -12,4 +12,9 @@ trait ShowTrait
     {
         return $this->_model->newQuery()->findOrFail($id);
     }
+
+    public function showByColumn(string $column, $identifier)
+    {
+        return $this->_model->newQuery()->where($column, $identifier)->firstOrFail();
+    }
 }

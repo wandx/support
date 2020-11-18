@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 
 interface UpdateInterface
 {
-    public function update(array $data, $id):Model;
+    public function update(array $data, $id): Model;
 }
