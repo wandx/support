@@ -8,6 +8,6 @@ trait DestroyTrait
 {
     public function destroy($id): void
     {
-        $this->_model->delete($id);
+        $this->_model->find($id)->delete();
     }
 }
