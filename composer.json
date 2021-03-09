@@ -16,7 +16,7 @@
         }
     },
     "require": {
-        "php": "^7.1",
+        "php": "^7.1 | ^8.0",
         "laravel/lumen-framework": "^8.2",
         "dingo/api": "^3.0",
         "tymon/jwt-auth": "^1.0"
